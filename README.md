@@ -25,12 +25,12 @@ Environment: Any IDE (VS Code, Visual Studio, Code::Blocks) or a standard termin
                .\EShopApp.exe
 
 ### Instructions to Use the System:
-Launch: Compile and run the program. You will see the Role Selection screen.
-Inventory Setup (Admin): Select 1 for Admin. Add at least two products (one Electronics, one Clothing) to build the shop's catalog.
-Browse & Shop (Customer): Select 2 for Customer. View the catalog to see available IDs.
-Selection: Choose "Add to Cart" and enter the specific Product ID you want. You can repeat this for multiple items.
-Payment: Go to "Checkout." Verify the total, enter a valid 16-digit card number (Luhn-compliant), and confirm.
-Exit: Always use the "Exit" option in the main menu to ensure the catalog.txt is updated correctly.
+ -Launch: Compile and run the program. You will see the Role Selection screen.
+ -Inventory Setup (Admin): Select 1 for Admin. Add at least two products (one Electronics, one Clothing) to build the shop's catalog.
+ -Browse & Shop (Customer): Select 2 for Customer. View the catalog to see available IDs.
+ -Selection: Choose "Add to Cart" and enter the specific Product ID you want. You can repeat this for multiple items.
+ -Payment: Go to "Checkout." Verify the total, enter a valid 16-digit card number (Luhn-compliant), and confirm.
+ -Exit: Always use the "Exit" option in the main menu to ensure the catalog.txt is updated correctly.
 
 ### 5 Use Cases:
 1. Inventory Management: An Admin adds a new "Smartphone" (Electronics) with a 24-month warranty and updates the catalog for customers.
