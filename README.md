@@ -26,7 +26,9 @@ Environment: Any IDE (VS Code, Visual Studio, Code::Blocks) or a standard termin
 
 ### Instructions to Use the System:
  -Launch: Compile and run the program. You will see the Role Selection screen.
+ 
  -Inventory Setup (Admin): Select 1 for Admin. Add at least two products (one Electronics, one Clothing) to build the shop's catalog.
+ 
  -Browse & Shop (Customer): Select 2 for Customer. View the catalog to see available IDs.
  -Selection: Choose "Add to Cart" and enter the specific Product ID you want. You can repeat this for multiple items.
  -Payment: Go to "Checkout." Verify the total, enter a valid 16-digit card number (Luhn-compliant), and confirm.
