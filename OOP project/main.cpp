@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// Requirement: Luhn Algorithm logic
+
 bool validateCard(string card) {
     int sum = 0; bool alt = false;
     for (int i = card.length() - 1; i >= 0; i--) {
@@ -20,13 +20,13 @@ bool validateCard(string card) {
 
 int main() {
     Manager shop;
-    shop.loadData(); // Load existing data on start
+    shop.loadData(); 
     int roleChoice;
 
     while (true) {
         cout << "\n--- ROLE SELECTION ---\n1. Admin (Manage Shop)\n2. Customer (Buy Items)\n3. Exit\nChoice: ";
         if (!(cin >> roleChoice) || roleChoice == 3) {
-            shop.saveData(); // Save catalog before exiting
+            shop.saveData(); // 
             break;
         }
 
