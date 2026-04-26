@@ -6,13 +6,13 @@
 
 class Manager {
 private:
-    std::vector<BaseProduct*> catalog; // Requirement: Dynamic Memory pointers
+    std::vector<BaseProduct*> catalog; 
 public:
-    ~Manager(); // Requirement: Proper use of delete
+    ~Manager(); 
     void addProduct(BaseProduct* p);
-    void displayAll() const; // Ensure 'const' is here
+    void displayAll() const; 
     void deleteProduct(int id);
-    void saveData(); // Requirement: File Handling
+    void saveData(); 
     void loadData();
     BaseProduct* getProductById(int id);
     double calculateTotal() const;
