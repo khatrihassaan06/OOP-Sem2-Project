@@ -8,7 +8,6 @@ private:
 public:
     Electronics(int i, std::string n, double p, int w) : BaseProduct(i, n, p), warranty(w) {}
     
-    // Function Overriding (Requirement: Polymorphism)
     void displayDetails() override {
         std::cout << "[Electronics] ID: " << getId() << " | Name: " << getName() 
                   << " | Price: $" << getPrice() << " | Warranty: " << warranty << "mo" << std::endl;
