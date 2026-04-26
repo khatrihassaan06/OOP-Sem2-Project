@@ -18,6 +18,7 @@ Environment: Any IDE (VS Code, Visual Studio, Code::Blocks) or a standard termin
 
 ### Instruction to compile the program:
 - Navigate to the project folder and run the following command on a new terminal to compile all files:
+  
                   g++ main.cpp Manager.cpp -o EShopApp 
 
 ### Instruction to run the program:
