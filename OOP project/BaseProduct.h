@@ -14,10 +14,9 @@ public:
     BaseProduct(int i, std::string n, double p) : id(i), name(n), price(p) {}
     virtual ~BaseProduct() {}
 
-    // Pure Virtual Function (Requirement: Abstraction)
+   
     virtual void displayDetails() = 0; 
 
-    // Getters and Setters (Requirement: Encapsulation)
     int getId() const { return id; }
     std::string getName() const { return name; }
     double getPrice() const { return price; }
