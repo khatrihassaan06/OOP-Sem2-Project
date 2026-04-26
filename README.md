@@ -10,7 +10,7 @@ A comprehensive C++ console application that simulates a full retail lifecycle, 
 
 ### Members Name/ ID: 
 Muhammad Hassaan: 25K-0802                                       
-Muhammad Yaseen:  25K-079
+Muhammad Yaseen:  25K-0791
 
 ### Prerequisites
 Compiler: GCC/G++ (version 7.0 or higher recommended for modern C++ features).
@@ -23,6 +23,7 @@ Environment: Any IDE (VS Code, Visual Studio, Code::Blocks) or a standard termin
 
 ### Instruction to run the program:
 - After successful compilation, launch the executable:
+  
                .\EShopApp.exe
 
 ### Instructions to Use the System:
